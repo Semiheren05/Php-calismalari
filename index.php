@@ -11,5 +11,22 @@
     <?php
     echo "bu bir php kodudur";
     ?>
+
+<?php
+$isim ="ahmet";
+echo $isim;
+$isim = " Mehmet";
+echo $isim;
+
+$sayi = 5;
+echo $sayi;
+echo gettype($sayi);
+echo var_dump($sayi);
+
+include 'config.php';
+echo"API anahtarım:".API_KEY;
+
+?>
+
 </body>
 </html>
