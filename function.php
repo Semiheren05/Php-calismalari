@@ -59,3 +59,10 @@ Function kategorileriGoster($kategoriler,$seviye= 0)
       }
 }
 kategorileriGoster($kategoriler);
+
+
+///////////////
+echo $bul=rand(1,10);
+if($bul == 3){
+      echo "Tebrikler Kazandınız";
+}
